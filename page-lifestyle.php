@@ -11,7 +11,7 @@ Template name: LIFESTYLE
                 <div class="article-page">
                     <?php
                     global $post; 
-                    $args = array('category' => 17);
+                    $args = array('category' => 5);
                     $myposts = get_posts( $args );
                     foreach( $myposts as $post ){ setup_postdata($post);
                         ?>

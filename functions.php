@@ -1,5 +1,12 @@
 <?php
 
+// includes
+
+include (get_template_directory().'/includes/theme-customizer.php');
+include (get_template_directory().'/includes/head.php');
+
+
+
 function load_css(){
     wp_enqueue_style('bootstrap-css', get_template_directory_uri().'/css/bootstrap.css');
     wp_enqueue_style( 'css', get_template_directory_uri() . '/css/style.css');
@@ -10,17 +17,16 @@ function load_css(){
     wp_enqueue_style( 'jquery' );
 }
 
-add_action( 'wp_enqueue_scripts', 'load_css' );
-
-
 function my_scripts_method() {
     wp_deregister_script( 'jquery' );
     wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js', '', '', true );
     wp_enqueue_script( 'jquery' );
     wp_enqueue_script( 'bootstrap', get_template_directory_uri().'/js/bootstrap.min.js', '', '', true  );
     //wp_enqueue_script( 'preloader', get_template_directory_uri().'/js/preloader.js', '', '', true  );
-    //wp_enqueue_script( 'ajax-load-posts', get_template_directory_uri().'/js/ajax-load-posts.js', '', '', true  );
+    //wp_enqueue_script( 'ajax', get_template_directory_uri().'/js/ajax-load-posts.js', '', '', true  );
 }
+
+add_action( 'wp_enqueue_scripts', 'load_css' );
 add_action( 'wp_enqueue_scripts', 'my_scripts_method' );
 
 
@@ -55,7 +61,6 @@ add_filter('excerpt_length', 'first_post_excerpt_length');
 add_filter('excerpt_more', function($more) {
     return '';
 });
-
 
 
 add_theme_support( 'post-thumbnails');
@@ -97,7 +102,7 @@ function load_posts_by_ajax_callback() {
                 <a href="<?php the_permalink(); ?>"><?php echo __('Read more', 'momino')?></a>
             </div>
         </div>
-        
+
     <?php endwhile ?>
         <?php
     endif;
@@ -105,11 +110,11 @@ function load_posts_by_ajax_callback() {
     wp_die();
 }
 
-// Customizer
-function momino_customize_register( $wp_customize ) {
-    // Do stuff with $wp_customize, the WP_Customize_Manager object.
-}
-add_action( 'customize_register', 'momino_customize_register' );
+
+// customizer
+add_action( 'customize_register', 'momino_customize_register' ); // Customize background color
+add_action( 'wp_head', 'momino_head' );
+add_action( 'customize_register', 'momino_img_customize_register' ); // customize image on header section
 
 
 

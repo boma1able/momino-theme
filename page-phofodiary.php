@@ -12,8 +12,8 @@ Template name: PHOTODIARY
                     <?php
                     global $post;
                     $args = array(
-                        'category' => 16,
-                        'posts_per_page' => '2');
+                        'category' => 4);
+                        //'posts_per_page' => '2');
 
                     $myposts = get_posts( $args );
                     foreach( $myposts as $post ){ setup_postdata($post);
@@ -47,7 +47,7 @@ Template name: PHOTODIARY
                     'next_text'    => __('Next »'),
                     'add_args'     => false, // Массив аргументов (переменных запроса), которые нужно добавить к ссылкам.
                     'add_fragment' => '',     // Текст который добавиться ко всем ссылкам.
-                    'screen_reader_text' => __( 'Posts navigation' ),
+                    'screen_reader_text' => __( '' ),
                 );
 
                 the_posts_pagination($args);

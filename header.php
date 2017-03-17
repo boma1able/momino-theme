@@ -12,7 +12,7 @@
 
 </head>
 
-<body> <!--onload="myFunction()" style="margin:0;"-->
+<body class="my-body"> <!--onload="myFunction()" style="margin:0;"-->
 
 <div id="loader"></div>
 
@@ -51,7 +51,19 @@
     </nav>
     <div class="container">
         <div class="row">
-            <div class="col-md-12"> <img class="img-responsive" src="<? echo home_url('wp-content/uploads/2017/03/', 'http')?>header.jpg" alt="header img"> </div>
+            <div class="col-md-12">
+
+                <?php
+                if ( get_theme_mod( 'img-change-set' ) ) :
+                    ?>
+                    <div class='change-img'>
+                        <img class="img-responsive" src='<?php echo esc_url( get_theme_mod( 'img-change-set' ) ); ?>' alt="header-img">
+                    </div>
+                <?php else : ?>
+                    <h2>There are no any image here!</h2>
+                <?php endif; ?>
+                
+            </div>
         </div>
     </div>
 </section>
