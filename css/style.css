@@ -1,0 +1,578 @@
+section {
+  margin: 50px 0;
+}
+
+.navbar li{
+  text-transform: uppercase;
+}
+
+.navbar ul li a {
+  font-family: 'Playfair Display', serif;
+  padding: 15px 0;
+  margin-left: 80px;
+}
+
+.logo img{
+  width: 110px;
+  padding: 15px 0;
+}
+.head-title h5 {
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase !important;
+  color: #b4ad9e;
+  font-size: .9em;
+  margin-bottom: 30px;
+}
+.head-title h5{
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase!important;
+  color: #b4ad9e;
+  font-size: .9em;
+  margin-bottom: 30px;
+}
+.head-title-comments h5{
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase!important;
+  color: #b4ad9e;
+  font-size: .9em;
+  margin-left: -15px;
+  margin-bottom: 25px;
+}
+.comment-respond h5 {
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  color: #b4ad9e;
+  font-size: .9em;
+  margin-bottom: 25px;
+}
+.boma-comment-reply-title{
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  color: #b4ad9e;
+  font-size: .9em;
+}
+
+.head-title h5 a, .head-title-ls h5 a {
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  color: #b4ad9e;
+  font-size: .9em;
+}
+
+.head-title h5 a:hover{
+  text-decoration: none;
+}
+.head-title h5 ul, .head-title-ls h5 ul{
+  padding-left: 0;
+  list-style-type: none;
+}
+.head-title-ls h5{
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  color: #b4ad9e;
+  font-size: .9em;
+  text-align: center;
+}
+
+.ph-title h3, .ph-title-ls h3 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 30px;
+  color: #333;
+}
+.ph-title-ls h3{
+  text-align: center;
+}
+
+.ph-title h3 a, .ph-title-ls h3 a{
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.ph-title h3 a:hover{
+  text-decoration: none;
+}
+
+.ph-title-ls h3 a:hover{
+  text-decoration: none;
+}
+.ph-title-page h3 a{
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 30px;
+  color: #333;
+}
+.ph-title-page h3{
+  text-align: center;
+}
+.ph-title-page h3 a:hover{
+  text-decoration: none;
+}
+
+p{
+  color: #626262;
+  font-family: 'Playfair Display', serif;
+}
+.comment-link h5{
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  color: #b4ad9e;
+  font-size: .9em;
+  margin-top: 40px;
+}
+
+.lifestyle h5, .photodiary h5{
+  margin: 25px 0;
+}
+
+.lifestyle, .photodiary, .sign-up{
+  margin-bottom: 80px;
+}
+
+.sign-up{
+  background-color: #F0F0F0;
+}
+
+.sign-up h3{
+  font-family: 'Playfair Display', serif;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: inline-block;
+}
+
+.sing-up-email {
+  margin: 0 auto;
+  width: 300px;
+}
+
+button{
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  padding: 5px;
+}
+
+.send-email {
+  border-bottom: 1px solid #555;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.send-email input{
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  width: 254px;
+  font-family: 'Playfair Display', serif;
+}
+.uld-btn{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.uld-btn a {
+  text-align: center;
+  margin: 120px 0;
+}
+
+.uld-btn .load-more {
+  border: 1px solid #555;
+  padding: 12px 25px;
+  color: #555;
+  font-family: 'Playfair Display', serif;
+  cursor: pointer;
+}
+
+
+.load-more:hover{
+  text-decoration: none;
+  -webkit-transition: all ease-out .3s;
+  transition: all ease-out .3s;
+  background-color: #555;
+  color: #fff;
+}
+
+.footer{
+  background-color: #F0F0F0;
+  margin-bottom: 0;
+}
+
+.copyright{
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.copyright a{
+  color: #555;
+}
+
+.follow{
+  margin: 0;
+  margin-top: 20px;
+}
+
+.follow li{
+  display: inline-block;
+  float: right;
+  list-style-type: none;
+  margin-left: 5px;
+  padding: 10px;
+}
+
+.follow li a{
+  color: #555;
+}
+
+.follow p{
+  display: inline-block;
+}
+
+/* photodiary page */
+.follow-sb{
+  float: left;
+  margin: 0;
+  padding: 0;  
+}
+
+.follow-sb li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px 0;
+  margin-right: 10px;
+}
+
+.follow-sb li a{
+  color: #9e9e9e;
+  font-size: 1.2em;
+}
+
+.about-me h3{
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+}
+
+.article img{
+  margin-top: 30px;
+}
+.blockquote{
+  margin: 40px 7% ;
+}
+
+.blockquote{
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: .9em;
+}
+
+.share{
+  margin: 0;
+  margin-top: 60px;
+}
+
+.share li{
+  display: inline-block;
+  float: right;
+  list-style-type: none;
+  margin-left: 5px;
+  padding: 10px;
+}
+
+.share li a{
+  color: #9e9e9e;
+  font-size: .9em;
+}
+
+.share p{
+  display: inline-block;
+  font-size: .9em;
+}
+
+.random-posts{
+  background-color: #F0F0F0;
+}
+.random-posts h5{
+  margin: 40px 0 30px;
+}
+.random-posts h3{
+  font-size: 1.3em;
+}
+
+.hover img:hover{
+  transition: opacity .3s;
+  opacity: .7;
+}
+
+/*  sidebar  */
+.widget{
+}
+
+.about-me {
+  display: inline-block;
+}
+
+.top-posts {
+  display: block;
+}
+.top-posts li{
+  margin: 20px 0;
+}
+
+.top-posts a{
+  color: #555;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.top-posts span{
+  text-transform: lowercase;
+  font-size: .9em;
+  color: #ccc;
+}
+
+/* media */
+
+@media screen and (max-width: 767px){
+  .logo img{
+    padding-left: 15px;
+  }
+  .navbar ul li a{
+    margin-left: 0;
+    text-align: center;
+  }
+  .content-ls img, .content-ph img{
+    float: none;
+    margin: 0 auto;
+  }
+  .center{
+    display: table;
+    margin: 0 auto;
+  }
+  .follow{
+    margin-right: 45px;
+  }
+  .copyright {
+    display: block;
+  }
+  .copyright p{
+    text-align: center;
+  }
+  .hover img{
+    margin: 0 auto;
+  }
+  .ph-title h3{
+    text-align: center;
+  }
+  p {
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .article-page img{
+    float: none!important;
+    margin: 0 auto!important;
+  }
+}
+#loader {
+  display: none;
+}
+#myDiv {
+  display: block;
+}
+/*  preloader
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  margin: -40px 0 0 -40px;
+  border: 2px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 2px solid #737373;
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin .5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content"
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+}
+*/
+/* others*/
+.one-post{
+  margin-bottom: 50px;
+  display: inline-block;
+}
+.one-post .read-more{
+  text-align: center;
+}
+
+.one-post h3{
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+.one-post-blog{
+  display: inline-block;
+}
+
+.one-post-blog h5{
+  text-align: left;
+}
+.one-post h5{
+  text-align: center!important;
+}
+
+.article-page img{
+  float: left;
+  margin-right: 20px;
+}
+
+.read-more {
+  margin: 50px 0;
+}
+
+.read-more a{
+  border: 1px solid #555;
+  padding: 12px 25px;
+  color: #555;
+  font-family: 'Playfair Display', serif;
+}
+
+.read-more a:hover{
+  text-decoration: none;
+  -webkit-transition: all ease-out .3s;
+  transition: all ease-out .3s;
+  background-color: #555;
+  color: #fff;
+}
+
+.single-post {
+  text-align: center;
+}
+
+.single-post p{
+  text-align: left;
+}
+.single-post img{
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.comment-form-comment textarea{
+  width: 100%;
+}
+.comment-form-author label, .comment-form-email label{
+  display: block;
+  font-family: 'Playfair Display', serif;
+}
+
+.form-submit #submit{
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #555;
+  padding: 12px 25px;
+  color: #555;
+}
+.form-submit #submit:hover{
+  text-decoration: none;
+  -webkit-transition: all ease-out .3s;
+  transition: all ease-out .3s;
+  background-color: #555;
+  color: #fff;
+}
+
+.content-ph, .content-ls{
+  display: inline-block;
+}
+.photodiary-page h5{
+  text-align: left;
+}
+.single-content h5{
+  text-align: center;
+}
+.date {
+  font-family:'Playfair Display', serif;
+}
+.content-blog {
+  min-height: 270px;
+}
+.commentlist{
+  padding-left: 15px;
+}
+.commentlist li{
+  list-style-type: none;
+}
+.commentlist li article{
+  border: 1px solid #F0F0F0;
+  padding: 50px 15px 15px 15px;
+  margin-bottom: 25px;
+}
+.comment-meta {
+  position: relative;
+}
+.comment-author{
+  position: absolute;
+  top: -70px;
+  left: -3px;
+}
+.comment-author img{
+  border-radius: 50%;
+  padding: 1px;
+  border: 1px solid #F0F0F0;
+}
+
+.comment-metadata a, .reply a{
+  color: #b4ad9e;
+}
+
+.load-icon{
+  display: none;
+}
+
+/* prev/next css */
+.next-div{
+  float: right;
+}
+.next-div .next{
+  text-align: center;
+}
+.next-div .nextp{
+  width: 100px;
+}
+
+
+
+
+
+
+
+
+
